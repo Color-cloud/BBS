@@ -34,7 +34,7 @@ result = {
 '''
 
 
-class IndexApi(Resource):
+class Test(Resource):
     @marshal_with(result)
     def get(self):
         cous = UserNext.query.filter(UserNext.n_uid == 1).first()

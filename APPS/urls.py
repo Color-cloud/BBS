@@ -1,6 +1,6 @@
 from flask_restful import Api
 
-from APPS.Account.api import IndexApi
+from APPS.Account.api import  Test
 
 api = Api()
 
@@ -10,4 +10,4 @@ def init_api(app):
 
 
 # 注册路由系统
-api.add_resource(IndexApi, "/")
+api.add_resource(Test, "/")
